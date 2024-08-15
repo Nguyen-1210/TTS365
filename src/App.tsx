@@ -1,11 +1,10 @@
-import "./App.css";
-import { ConfigProvider } from "antd";
+import { ConfigProvider, theme } from "antd";
 import AppRouter from "./AppRouter";
 
 function App() {
   const defaultTheme = {
-    borderRadius: 4,
-    colorPrimary: "#0a68ff",
+    borderRadius: 5,
+    colorPrimary: "#1fdf64",
   };
 
   return (
@@ -13,8 +12,8 @@ function App() {
       prefixCls="om"
       iconPrefixCls="om"
       theme={{
+        algorithm: theme.darkAlgorithm,
         token: {
-          colorBgContainerDisabled: "#f5f5f5",
           colorPrimary: defaultTheme.colorPrimary,
           borderRadius: defaultTheme.borderRadius,
           fontFamily: "Inter,Helvetica,Arial,sans-serif",

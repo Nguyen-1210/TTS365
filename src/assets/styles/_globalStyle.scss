@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  overflow-x: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100% !important;
+  -ms-text-size-adjust: 100% !important;
+  text-size-adjust: 100% !important;
+  font-family: "ProximaNova", sans-serif !important;
+}
+
+footer,
+header,
+nav,
+section,
+main {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+button,
+textarea,
+select {
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+a {
+  color: #ffffff;
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+button {
+  box-shadow: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
+}
+
+body::-webkit-scrollbar-track {
+  display: none;
+}
+
+body::-webkit-scrollbar-thumb {
+  display: none;
+}
